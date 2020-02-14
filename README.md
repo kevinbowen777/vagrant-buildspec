@@ -1,6 +1,6 @@
 # vagrant-buildspec
 
-    A simple template to streamline populating Vagrantfiles for use with
+    A simple template to streamline populating a Vagrantfile for use with
     VirtualBox and Ansible.
 
 ## Installation ##
