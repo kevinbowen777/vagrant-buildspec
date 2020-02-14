@@ -1,0 +1,14 @@
+vbox_name: shiny_new_machine
+hostname: phoenix.test
+vagrant_box_name: geerlingguy/centos7
+ansible_host: centos
+disksize: 20GB
+memory: 1024
+private_ip: 192.168.23.56
+public_ip:
+forward_ports:
+  - { guest_port: 3000, host_port: 3456 }
+shared_dirs:
+  - { guest_dir: '~/dev/sandbox/vagrant/templates', host_dir: '/home/vagrant/project_name'}
+inventory: 'inventory'
+playbook_location: 'provisioning/playbook.yml'
