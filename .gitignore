@@ -1,0 +1,5 @@
+.vagrant/*
+*.bak
+*.swp
+*~
+*.log
