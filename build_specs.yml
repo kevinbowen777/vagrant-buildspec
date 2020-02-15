@@ -1,7 +1,9 @@
+---
 vbox_name: phoenix1
 hostname: phoenix
 vagrant_box_name: geerlingguy/centos7
 ansible_host: phoenix
+# disksize functionality has _not_ been tested.
 disksize: 20GB
 provider: virtualbox
 cpus: 2
