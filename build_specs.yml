@@ -11,8 +11,9 @@ memory: 1024
 private_ip: 192.168.23.77
 public_ip:
 forwarded_port:
-  - { guest_port: 3000, host_port: 3456 }
+  - {guest_port: 3000, host_port: 3456}
 synced_folder:
-  - { guest_dir: '~/dev/sandbox/vagrant/templates', host_dir: '/home/vagrant/project_name'}
+  - {guest_dir: '~/dev/sandbox/vagrant/templates',
+     host_dir: '/home/vagrant/project_name'}
 inventory: 'inventory'
 playbook_location: 'provisioning/playbook.yml'
