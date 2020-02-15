@@ -26,7 +26,7 @@ Vagrant.configure('2') do |config|
     config.vm.network :forwarded_port, guest: port['guest_port'], host: port['host_port']
   end
 
-  BUILDSPEC['synced_folder'].each do |dir|
+  BUILDSPEC['synced_folders'].each do |dir|
     config.vm.synced_folder dir['guest_dir'], dir['host_dir'], disabled: false
   end
 

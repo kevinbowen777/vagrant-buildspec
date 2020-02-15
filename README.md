@@ -33,7 +33,7 @@
         Forwarding Ports
             Guest Port
             Host Port  
-        Shared Directories
+        Synced Folders
             Guest Directory
             Host Directory
         Ansible Inventory File Location
