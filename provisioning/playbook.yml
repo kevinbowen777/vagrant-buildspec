@@ -1,5 +1,5 @@
 ---
-- hosts: centos
+- hosts: phoenix
   become: yes
   tasks:
   - name: Ensure NTP (for time synchronization) is installed.

@@ -1,5 +1,6 @@
 [test]
-centos ansible_host=192.168.23.56
+# centos ansible_host=192.168.23.56
+phoenix
 
 # Variables that will be applied to all servers
 [test:vars]

@@ -1,10 +1,10 @@
-vbox_name: shiny_new_machine
-hostname: phoenix.test
+vbox_name: phoenix1
+hostname: phoenix
 vagrant_box_name: geerlingguy/centos7
-ansible_host: centos
+ansible_host: phoenix
 disksize: 20GB
 memory: 1024
-private_ip: 192.168.23.56
+private_ip: 192.168.23.77
 public_ip:
 forward_ports:
   - { guest_port: 3000, host_port: 3456 }
