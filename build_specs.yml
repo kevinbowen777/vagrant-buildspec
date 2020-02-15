@@ -8,7 +8,7 @@ cpus: 2
 memory: 1024
 private_ip: 192.168.23.77
 public_ip:
-forward_ports:
+forwarded_port:
   - { guest_port: 3000, host_port: 3456 }
 shared_dirs:
   - { guest_dir: '~/dev/sandbox/vagrant/templates', host_dir: '/home/vagrant/project_name'}

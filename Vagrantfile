@@ -22,7 +22,7 @@ Vagrant.configure('2') do |config|
     #config.vm.network :public_network, ip: BUILDSPEC['public_ip']
   end
 
-  BUILDSPEC['forward_ports'].each do |port|
+  BUILDSPEC['forwarded_port'].each do |port|
     config.vm.network :forwarded_port, guest: port['guest_port'], host: port['host_port']
   end
 
