@@ -3,6 +3,7 @@ hostname: phoenix
 vagrant_box_name: geerlingguy/centos7
 ansible_host: phoenix
 disksize: 20GB
+cpus: 2
 memory: 1024
 private_ip: 192.168.23.77
 public_ip:

@@ -10,6 +10,7 @@ Vagrant.configure('2') do |config|
   config.ssh.insert_key = false
 
   config.vm.provider :virtualbox do |v|
+    v.cpus = BUILDSPEC['cpus']
     v.memory = BUILDSPEC['memory']
     v.customize ['modifyvm', :id, '--name',   BUILDSPEC['vbox_name']]
   end

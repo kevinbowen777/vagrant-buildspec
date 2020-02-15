@@ -26,6 +26,7 @@
         VirtualBox Guest Hostname 
         Vagrant Box Name
         Ansible Host
+        CPU
         Memory
         Private IP Address
         Public IP Address
